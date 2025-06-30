@@ -19,6 +19,11 @@ def get_db():
 def read_words(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     return crud.get_words(db, skip=skip, limit=limit)
 
+
+@app.get("/api/v1/summary", response_model=schemas.Summary)
+def get_summary(db: Session = Depends(get_db)):
+    return crud.get_summary(db)
+
 @app.post("/api/v1/review", response_model=schemas.ReviewResult)
 def review_word(review: schemas.ReviewRequest, db: Session = Depends(get_db)):
     return crud.process_review(db, review)

@@ -11,11 +11,15 @@ function ReviewCard({word, onReview}) {
   }
 
   return (
-    <div>
+    <div className="card">
       <p>{word.japanese}</p>
       <form onSubmit={handleSubmit}>
-        <input value={answer} onChange={e => setAnswer(e.target.value)} />
-        <button type="submit">Submit</button>
+        <input
+          type="text"
+          value={answer}
+          onChange={e => setAnswer(e.target.value)}
+        />
+        <button type="submit" className="button">Submit</button>
       </form>
     </div>
   )

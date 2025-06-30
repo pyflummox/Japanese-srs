@@ -75,7 +75,6 @@ cd frontend
 python -m http.server 3000
 ```
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
-=======
 Open `frontend/index.html` in your browser. No build step is required because the page loads React and Tailwind from CDNs.
 
 

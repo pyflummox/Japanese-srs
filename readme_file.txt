@@ -68,12 +68,16 @@ The backend will be available at:
 - Interactive docs: http://localhost:8000/docs
 
 ### Frontend Setup
+
 Serve the `frontend` directory with a simple static server (for example using Python):
 ```bash
 cd frontend
 python -m http.server 3000
 ```
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
+=======
+Open `frontend/index.html` in your browser. No build step is required because the page loads React and Tailwind from CDNs.
+
 
 ## 🏗️ Architecture
 

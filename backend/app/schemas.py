@@ -27,3 +27,9 @@ class ReviewResult(BaseModel):
 class DeckImport(BaseModel):
     name: str
     words: list[WordCreate]
+
+
+class Summary(BaseModel):
+    total_words: int
+    lessons_available: int
+    reviews_due: int

@@ -2,6 +2,19 @@ from sqlalchemy.orm import Session
 from . import models, schemas
 import time
 
+# Summary stats
+def get_summary(db: Session):
+    now = int(time.time())
+    total_words = db.query(models.Word).count()
+    lessons_available = db.query(models.SRSItem).filter(models.SRSItem.level == 0).count()
+    reviews_due = db.query(models.SRSItem).filter(models.SRSItem.next_review <= now).count()
+    return {
+        "total_words": total_words,
+        "lessons_available": lessons_available,
+        "reviews_due": reviews_due,
+    }
+
+
 SRS_STEPS = [1, 2, 4, 8, 16]
 
 # Words

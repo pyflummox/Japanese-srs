@@ -27,6 +27,17 @@ STAGE_NAMES = ["Child", "Student", "Scholar", "Enlightened", "Burned"]
 def get_words(db: Session, skip: int = 0, limit: int = 100):
     return db.query(models.Word).offset(skip).limit(limit).all()
 
+def get_lessons(db: Session, limit: int = 15):
+    query = db.query(models.Word).join(models.SRSItem)
+    query = query.filter(models.SRSItem.level == 0)
+    return query.order_by(models.Word.id).limit(limit).all()
+
+def get_reviews(db: Session, limit: int = 50):
+    now = int(time.time())
+    query = db.query(models.Word).join(models.SRSItem)
+    query = query.filter(models.SRSItem.level > 0, models.SRSItem.next_review <= now)
+    return query.order_by(models.SRSItem.next_review).limit(limit).all()
+
 def search_words(db: Session, query: str):
     q = f"%{query}%"
     return db.query(models.Word).filter(models.Word.japanese.like(q) | models.Word.english.like(q)).all()
@@ -62,7 +73,15 @@ def import_deck(db: Session, deck: schemas.DeckImport):
     for w in deck.words:
         word = db.query(models.Word).filter(models.Word.japanese == w.japanese).first()
         if not word:
-            word = models.Word(japanese=w.japanese, english=w.english, example=w.example, audio=w.audio)
+            word = models.Word(
+                japanese=w.japanese,
+                english=w.english,
+                example=w.example,
+                audio=w.audio,
+                pos=w.pos,
+                jlpt=w.jlpt,
+                deck=deck.name,
+            )
             db.add(word)
             db.commit()
             db.refresh(word)
@@ -84,6 +103,7 @@ def import_csv(db: Session, name: str, file_path: str, jlpt: str|None = None):
                 example=row.get('Example'),
                 pos=row.get('POS'),
                 jlpt=jlpt or row.get('Level'),
+                deck=name,
             ))
     return import_deck(db, schemas.DeckImport(name=name, words=words))
 

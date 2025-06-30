@@ -34,6 +34,16 @@ def dictionary(db: Session = Depends(get_db)):
     return crud.get_words(db)
 
 
+@app.get("/api/v1/lessons", response_model=list[schemas.Word])
+def get_lessons(limit: int = 15, db: Session = Depends(get_db)):
+    return crud.get_lessons(db, limit=limit)
+
+
+@app.get("/api/v1/reviews", response_model=list[schemas.Word])
+def get_reviews(db: Session = Depends(get_db)):
+    return crud.get_reviews(db)
+
+
 @app.get("/api/v1/summary", response_model=schemas.Summary)
 def get_summary(db: Session = Depends(get_db)):
     return crud.get_summary(db)

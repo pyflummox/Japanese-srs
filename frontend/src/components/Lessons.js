@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'https://cdn.skypack.dev/react';
+import { useNavigate } from 'https://cdn.skypack.dev/react-router-dom';
 import { 
   BookOpenIcon, 
   ArrowRightIcon,
   CloudArrowUpIcon,
   DocumentTextIcon
-} from '@heroicons/react/24/outline';
-import { useApi } from '../hooks/useApi';
+} from 'https://cdn.skypack.dev/@heroicons/react@2.0.18/24/outline';
+import { useApi } from '../hooks/useApi.js';
 
 const Lessons = () => {
   const [lessons, setLessons] = useState([]);

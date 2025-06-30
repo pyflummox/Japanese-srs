@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { 
-  HomeIcon, 
-  BookOpenIcon, 
-  PencilIcon, 
+import React, { useState } from 'https://cdn.skypack.dev/react';
+import { Link, useLocation } from 'https://cdn.skypack.dev/react-router-dom';
+import {
+  HomeIcon,
+  BookOpenIcon,
+  PencilIcon,
   MagnifyingGlassIcon,
   Cog6ToothIcon,
   SunIcon,
   MoonIcon,
   Bars3Icon,
   XMarkIcon
-} from '@heroicons/react/24/outline';
+} from 'https://cdn.skypack.dev/@heroicons/react@2.0.18/24/outline';
 
 const Navigation = ({ theme, toggleTheme }) => {
   const location = useLocation();

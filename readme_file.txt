@@ -73,18 +73,7 @@ The backend will be available at:
 - Interactive docs: http://localhost:8000/docs
 
 ### Frontend Setup
-```bash
-# Open new terminal/PowerShell window
-cd frontend
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm start
-```
-
-The frontend will be available at: http://localhost:3000
+Open `frontend/index.html` in your browser. No build step is required because the page loads React and Tailwind from CDNs.
 
 ## 🏗️ Architecture
 
@@ -205,19 +194,12 @@ japanese-srs/
 # Backend tests (if implemented)
 cd backend
 python -m pytest
-
-# Frontend tests
-cd frontend
-npm test
 ```
 
 ### Building for Production
+The frontend is a static page. Serve the `frontend` directory with any web server.
+To run the backend in production:
 ```bash
-# Frontend build
-cd frontend
-npm run build
-
-# Backend deployment
 cd backend
 uvicorn main:app --host 0.0.0.0 --port 8000
 ```

@@ -39,52 +39,41 @@ A comprehensive, full-stack spaced repetition system (SRS) for learning Japanese
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Python 3.8+ 
-- Node.js 16+
-- PowerShell (Windows) or Terminal (Mac/Linux)
+- Python 3.8+
+  - On Windows, install from the [official site](https://www.python.org/downloads/).
+  - On macOS/Linux, use your package manager (e.g. `brew`, `apt`).
 
-### Backend Setup (PowerShell)
-```powershell
+### Backend Setup
+```bash
 # Clone the repository
 git clone <repository-url>
-cd japanese-srs
+cd Japanese-srs/backend
 
-# Navigate to backend
-cd backend
-
-# Create virtual environment
+# Create and activate a virtual environment
 python -m venv venv
-
-# Activate virtual environment
-.\venv\Scripts\activate
+source venv/bin/activate  # On Windows use .\venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Initialize database (if needed)
+# Initialize the database (first run only)
 python init_db.py
 
 # Start the backend server
 uvicorn main:app --reload
-```
 
+```
 The backend will be available at:
 - API: http://localhost:8000
 - Interactive docs: http://localhost:8000/docs
 
 ### Frontend Setup
+Serve the `frontend` directory with a simple static server (for example using Python):
 ```bash
-# Open new terminal/PowerShell window
 cd frontend
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm start
+python -m http.server 3000
 ```
-
-The frontend will be available at: http://localhost:3000
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🏗️ Architecture
 
@@ -205,19 +194,12 @@ japanese-srs/
 # Backend tests (if implemented)
 cd backend
 python -m pytest
-
-# Frontend tests
-cd frontend
-npm test
 ```
 
 ### Building for Production
+The frontend is a static page. Serve the `frontend` directory with any web server.
+To run the backend in production:
 ```bash
-# Frontend build
-cd frontend
-npm run build
-
-# Backend deployment
 cd backend
 uvicorn main:app --host 0.0.0.0 --port 8000
 ```
@@ -279,13 +261,14 @@ pip install -r requirements.txt
 
 **Frontend won't start:**
 ```bash
-# Clear npm cache
-npm cache clean --force
+# Make sure the static server is running
+cd frontend
+python -m http.server 3000
 
-# Reinstall dependencies
-rm -rf node_modules package-lock.json
-npm install
+# Ensure you have internet access so CDN assets load properly
+# Confirm the backend at http://localhost:8000 is running
 ```
+
 
 **Database issues:**
 ```bash

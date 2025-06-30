@@ -1,14 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navigation from './components/Navigation';
-import Dashboard from './components/Dashboard';
-import Lessons from './components/Lessons';
-import Quiz from './components/Quiz';
-import Reviews from './components/Reviews';
-import Dictionary from './components/Dictionary';
-import WordDetail from './components/WordDetail';
-import Settings from './components/Settings';
-import './index.css';
+import React, { useState, useEffect } from 'https://cdn.skypack.dev/react';
+import { BrowserRouter as Router, Routes, Route } from 'https://cdn.skypack.dev/react-router-dom';
+import Navigation from './components/Navigation.js';
+import Dashboard from './components/Dashboard.js';
+import Lessons from './components/Lessons.js';
+import Quiz from './components/Quiz.js';
+import Reviews from './components/Reviews.js';
+import Dictionary from './components/Dictionary.js';
+import WordDetail from './components/WordDetail.js';
+import Settings from './components/Settings.js';
 
 function App() {
   const [theme, setTheme] = useState('light');

@@ -39,41 +39,45 @@ A comprehensive, full-stack spaced repetition system (SRS) for learning Japanese
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Python 3.8+ 
-- Node.js 16+
-- PowerShell (Windows) or Terminal (Mac/Linux)
+- Python 3.8+
+  - On Windows, install from the [official site](https://www.python.org/downloads/).
+  - On macOS/Linux, use your package manager (e.g. `brew`, `apt`).
 
-### Backend Setup (PowerShell)
-```powershell
+### Backend Setup
+```bash
 # Clone the repository
 git clone <repository-url>
-cd japanese-srs
+cd Japanese-srs/backend
 
-# Navigate to backend
-cd backend
-
-# Create virtual environment
+# Create and activate a virtual environment
 python -m venv venv
-
-# Activate virtual environment
-.\venv\Scripts\activate
+source venv/bin/activate  # On Windows use .\venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Initialize database (if needed)
+# Initialize the database (first run only)
 python init_db.py
 
 # Start the backend server
 uvicorn main:app --reload
-```
 
+```
 The backend will be available at:
 - API: http://localhost:8000
 - Interactive docs: http://localhost:8000/docs
 
 ### Frontend Setup
+
+Serve the `frontend` directory with a simple static server (for example using Python):
+```bash
+cd frontend
+python -m http.server 3000
+```
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
+=======
 Open `frontend/index.html` in your browser. No build step is required because the page loads React and Tailwind from CDNs.
+
 
 ## 🏗️ Architecture
 
@@ -261,13 +265,14 @@ pip install -r requirements.txt
 
 **Frontend won't start:**
 ```bash
-# Clear npm cache
-npm cache clean --force
+# Make sure the static server is running
+cd frontend
+python -m http.server 3000
 
-# Reinstall dependencies
-rm -rf node_modules package-lock.json
-npm install
+# Ensure you have internet access so CDN assets load properly
+# Confirm the backend at http://localhost:8000 is running
 ```
+
 
 **Database issues:**
 ```bash

@@ -1,0 +1,331 @@
+[
+  {
+    "word": "合う",
+    "kana": "あう",
+    "english": "to fit, to suit",
+    "jlpt_level": "N4",
+    "part_of_speech": "verb",
+    "example": "この服は私に合います。"
+  },
+  {
+    "word": "愛",
+    "kana": "あい",
+    "english": "love",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "愛は大切です。"
+  },
+  {
+    "word": "間",
+    "kana": "あいだ",
+    "english": "between, during",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "授業の間に休憩があります。"
+  },
+  {
+    "word": "相手",
+    "kana": "あいて",
+    "english": "partner, opponent",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "テニスの相手を探しています。"
+  },
+  {
+    "word": "挨拶",
+    "kana": "あいさつ",
+    "english": "greeting",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "朝の挨拶をします。"
+  },
+  {
+    "word": "上がる",
+    "kana": "あがる",
+    "english": "to rise, to go up",
+    "jlpt_level": "N4",
+    "part_of_speech": "verb",
+    "example": "気温が上がります。"
+  },
+  {
+    "word": "諦める",
+    "kana": "あきらめる",
+    "english": "to give up",
+    "jlpt_level": "N4",
+    "part_of_speech": "verb",
+    "example": "簡単に諦めません。"
+  },
+  {
+    "word": "憧れ",
+    "kana": "あこがれ",
+    "english": "longing, admiration",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "彼への憧れがあります。"
+  },
+  {
+    "word": "集まる",
+    "kana": "あつまる",
+    "english": "to gather",
+    "jlpt_level": "N4",
+    "part_of_speech": "verb",
+    "example": "友達が集まります。"
+  },
+  {
+    "word": "扱う",
+    "kana": "あつかう",
+    "english": "to handle, to treat",
+    "jlpt_level": "N4",
+    "part_of_speech": "verb",
+    "example": "機械を扱います。"
+  },
+  {
+    "word": "案内",
+    "kana": "あんない",
+    "english": "guidance, guide",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "駅で案内をもらいました。"
+  },
+  {
+    "word": "安心",
+    "kana": "あんしん",
+    "english": "relief, peace of mind",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "母の声を聞いて安心しました。"
+  },
+  {
+    "word": "以外",
+    "kana": "いがい",
+    "english": "except, other than",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "日曜日以外は忙しいです。"
+  },
+  {
+    "word": "意見",
+    "kana": "いけん",
+    "english": "opinion",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "あなたの意見を聞かせてください。"
+  },
+  {
+    "word": "以上",
+    "kana": "いじょう",
+    "english": "more than, above",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "十人以上来ました。"
+  },
+  {
+    "word": "以下",
+    "kana": "いか",
+    "english": "below, under",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "五歳以下は無料です。"
+  },
+  {
+    "word": "一生懸命",
+    "kana": "いっしょうけんめい",
+    "english": "with all one's might",
+    "jlpt_level": "N4",
+    "part_of_speech": "adverb",
+    "example": "一生懸命勉強します。"
+  },
+  {
+    "word": "印象",
+    "kana": "いんしょう",
+    "english": "impression",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "良い印象を受けました。"
+  },
+  {
+    "word": "運動",
+    "kana": "うんどう",
+    "english": "exercise, movement",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "毎日運動しています。"
+  },
+  {
+    "word": "営業",
+    "kana": "えいぎょう",
+    "english": "business, sales",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "営業の仕事をしています。"
+  },
+  {
+    "word": "影響",
+    "kana": "えいきょう",
+    "english": "influence",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "天気は気分に影響します。"
+  },
+  {
+    "word": "笑顔",
+    "kana": "えがお",
+    "english": "smile",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "いつも笑顔でいます。"
+  },
+  {
+    "word": "お客",
+    "kana": "おきゃく",
+    "english": "customer, guest",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "お客さんが来ました。"
+  },
+  {
+    "word": "億",
+    "kana": "おく",
+    "english": "hundred million",
+    "jlpt_level": "N4",
+    "part_of_speech": "number",
+    "example": "一億円の宝くじ。"
+  },
+  {
+    "word": "奥さん",
+    "kana": "おくさん",
+    "english": "wife (polite)",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "田中さんの奥さんです。"
+  },
+  {
+    "word": "怒る",
+    "kana": "おこる",
+    "english": "to get angry",
+    "jlpt_level": "N4",
+    "part_of_speech": "verb",
+    "example": "父が怒りました。"
+  },
+  {
+    "word": "お祭り",
+    "kana": "おまつり",
+    "english": "festival",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "夏にお祭りがあります。"
+  },
+  {
+    "word": "重い",
+    "kana": "おもい",
+    "english": "heavy",
+    "jlpt_level": "N4",
+    "part_of_speech": "adjective",
+    "example": "この荷物は重いです。"
+  },
+  {
+    "word": "思う",
+    "kana": "おもう",
+    "english": "to think",
+    "jlpt_level": "N4",
+    "part_of_speech": "verb",
+    "example": "そう思います。"
+  },
+  {
+    "word": "表",
+    "kana": "おもて",
+    "english": "surface, front",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "紙の表に書きます。"
+  },
+  {
+    "word": "泳ぐ",
+    "kana": "およぐ",
+    "english": "to swim",
+    "jlpt_level": "N4",
+    "part_of_speech": "verb",
+    "example": "プールで泳ぎます。"
+  },
+  {
+    "word": "終わる",
+    "kana": "おわる",
+    "english": "to end",
+    "jlpt_level": "N4",
+    "part_of_speech": "verb",
+    "example": "授業が終わります。"
+  },
+  {
+    "word": "音",
+    "kana": "おと",
+    "english": "sound",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "変な音がします。"
+  },
+  {
+    "word": "大人",
+    "kana": "おとな",
+    "english": "adult",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "大人の考え方です。"
+  },
+  {
+    "word": "驚く",
+    "kana": "おどろく",
+    "english": "to be surprised",
+    "jlpt_level": "N4",
+    "part_of_speech": "verb",
+    "example": "結果に驚きました。"
+  },
+  {
+    "word": "同じ",
+    "kana": "おなじ",
+    "english": "same",
+    "jlpt_level": "N4",
+    "part_of_speech": "adjective",
+    "example": "同じ本を読んでいます。"
+  },
+  {
+    "word": "お腹",
+    "kana": "おなか",
+    "english": "stomach",
+    "jlpt_level": "N4",
+    "part_of_speech": "noun",
+    "example": "お腹が空きました。"
+  },
+  {
+    "word": "覚える",
+    "kana": "おぼえる",
+    "english": "to remember",
+    "jlpt_level": "N4",
+    "part_of_speech": "verb",
+    "example": "新しい言葉を覚えます。"
+  },
+  {
+    "word": "面白い",
+    "kana": "おもしろい",
+    "english": "interesting, funny",
+    "jlpt_level": "N4",
+    "part_of_speech": "adjective",
+    "example": "面白い映画でした。"
+  },
+  {
+    "word": "主に",
+    "kana": "おもに",
+    "english": "mainly",
+    "jlpt_level": "N4",
+    "part_of_speech": "adverb",
+    "example": "主に野菜を食べます。"
+  },
+  {
+    "word": "折る",
+    "kana": "おる",
+    "english": "to break, to fold",
+    "jlpt_level": "N4",
+    "part_of_speech": "verb",
+    "example": "紙を半分に折ります。"
+  }
+]
+    

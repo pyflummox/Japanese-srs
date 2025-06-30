@@ -1,5 +1,0 @@
-__pycache__/
-*.pyc
-backend/srs.db
-node_modules/
-.env

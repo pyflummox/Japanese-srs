@@ -1,0 +1,434 @@
+[
+  {
+    "word": "あう",
+    "kana": "あう",
+    "english": "to meet",
+    "jlpt_level": "N5",
+    "part_of_speech": "verb",
+    "example": "友達に会います。"
+  },
+  {
+    "word": "青い",
+    "kana": "あおい",
+    "english": "blue",
+    "jlpt_level": "N5",
+    "part_of_speech": "adjective",
+    "example": "空が青いです。"
+  },
+  {
+    "word": "赤い",
+    "kana": "あかい",
+    "english": "red",
+    "jlpt_level": "N5",
+    "part_of_speech": "adjective",
+    "example": "赤い花があります。"
+  },
+  {
+    "word": "秋",
+    "kana": "あき",
+    "english": "autumn",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "秋は涼しいです。"
+  },
+  {
+    "word": "開く",
+    "kana": "あく",
+    "english": "to open",
+    "jlpt_level": "N5",
+    "part_of_speech": "verb",
+    "example": "ドアが開きます。"
+  },
+  {
+    "word": "朝",
+    "kana": "あさ",
+    "english": "morning",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "朝ご飯を食べます。"
+  },
+  {
+    "word": "あさって",
+    "kana": "あさって",
+    "english": "day after tomorrow",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "あさって会いましょう。"
+  },
+  {
+    "word": "足",
+    "kana": "あし",
+    "english": "foot, leg",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "足が痛いです。"
+  },
+  {
+    "word": "明日",
+    "kana": "あした",
+    "english": "tomorrow",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "明日は雨です。"
+  },
+  {
+    "word": "あそこ",
+    "kana": "あそこ",
+    "english": "over there",
+    "jlpt_level": "N5",
+    "part_of_speech": "pronoun",
+    "example": "あそこに学校があります。"
+  },
+  {
+    "word": "遊ぶ",
+    "kana": "あそぶ",
+    "english": "to play",
+    "jlpt_level": "N5",
+    "part_of_speech": "verb",
+    "example": "公園で遊びます。"
+  },
+  {
+    "word": "暖かい",
+    "kana": "あたたかい",
+    "english": "warm",
+    "jlpt_level": "N5",
+    "part_of_speech": "adjective",
+    "example": "今日は暖かいです。"
+  },
+  {
+    "word": "頭",
+    "kana": "あたま",
+    "english": "head",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "頭が痛いです。"
+  },
+  {
+    "word": "新しい",
+    "kana": "あたらしい",
+    "english": "new",
+    "jlpt_level": "N5",
+    "part_of_speech": "adjective",
+    "example": "新しい車を買いました。"
+  },
+  {
+    "word": "あちら",
+    "kana": "あちら",
+    "english": "over there (polite)",
+    "jlpt_level": "N5",
+    "part_of_speech": "pronoun",
+    "example": "あちらは図書館です。"
+  },
+  {
+    "word": "暑い",
+    "kana": "あつい",
+    "english": "hot",
+    "jlpt_level": "N5",
+    "part_of_speech": "adjective",
+    "example": "夏は暑いです。"
+  },
+  {
+    "word": "厚い",
+    "kana": "あつい",
+    "english": "thick",
+    "jlpt_level": "N5",
+    "part_of_speech": "adjective",
+    "example": "厚い本です。"
+  },
+  {
+    "word": "あっち",
+    "kana": "あっち",
+    "english": "over there",
+    "jlpt_level": "N5",
+    "part_of_speech": "pronoun",
+    "example": "あっちに行きます。"
+  },
+  {
+    "word": "後",
+    "kana": "あと",
+    "english": "after",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "後で電話します。"
+  },
+  {
+    "word": "あなた",
+    "kana": "あなた",
+    "english": "you",
+    "jlpt_level": "N5",
+    "part_of_speech": "pronoun",
+    "example": "あなたは学生ですか。"
+  },
+  {
+    "word": "兄",
+    "kana": "あに",
+    "english": "older brother",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "兄は会社員です。"
+  },
+  {
+    "word": "姉",
+    "kana": "あね",
+    "english": "older sister",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "姉は先生です。"
+  },
+  {
+    "word": "あの",
+    "kana": "あの",
+    "english": "that (over there)",
+    "jlpt_level": "N5",
+    "part_of_speech": "determiner",
+    "example": "あの人は誰ですか。"
+  },
+  {
+    "word": "アパート",
+    "kana": "アパート",
+    "english": "apartment",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "新しいアパートに住んでいます。"
+  },
+  {
+    "word": "危ない",
+    "kana": "あぶない",
+    "english": "dangerous",
+    "jlpt_level": "N5",
+    "part_of_speech": "adjective",
+    "example": "ここは危ないです。"
+  },
+  {
+    "word": "甘い",
+    "kana": "あまい",
+    "english": "sweet",
+    "jlpt_level": "N5",
+    "part_of_speech": "adjective",
+    "example": "このケーキは甘いです。"
+  },
+  {
+    "word": "雨",
+    "kana": "あめ",
+    "english": "rain",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "雨が降っています。"
+  },
+  {
+    "word": "飴",
+    "kana": "あめ",
+    "english": "candy",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "子供が飴を食べています。"
+  },
+  {
+    "word": "洗う",
+    "kana": "あらう",
+    "english": "to wash",
+    "jlpt_level": "N5",
+    "part_of_speech": "verb",
+    "example": "手を洗います。"
+  },
+  {
+    "word": "ある",
+    "kana": "ある",
+    "english": "to exist",
+    "jlpt_level": "N5",
+    "part_of_speech": "verb",
+    "example": "机の上に本があります。"
+  },
+  {
+    "word": "歩く",
+    "kana": "あるく",
+    "english": "to walk",
+    "jlpt_level": "N5",
+    "part_of_speech": "verb",
+    "example": "毎日歩きます。"
+  },
+  {
+    "word": "いい",
+    "kana": "いい",
+    "english": "good",
+    "jlpt_level": "N5",
+    "part_of_speech": "adjective",
+    "example": "いい天気ですね。"
+  },
+  {
+    "word": "言う",
+    "kana": "いう",
+    "english": "to say",
+    "jlpt_level": "N5",
+    "part_of_speech": "verb",
+    "example": "何と言いましたか。"
+  },
+  {
+    "word": "家",
+    "kana": "いえ",
+    "english": "house",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "大きい家に住んでいます。"
+  },
+  {
+    "word": "行く",
+    "kana": "いく",
+    "english": "to go",
+    "jlpt_level": "N5",
+    "part_of_speech": "verb",
+    "example": "学校に行きます。"
+  },
+  {
+    "word": "いくつ",
+    "kana": "いくつ",
+    "english": "how many",
+    "jlpt_level": "N5",
+    "part_of_speech": "interrogative",
+    "example": "りんごはいくつありますか。"
+  },
+  {
+    "word": "いくら",
+    "kana": "いくら",
+    "english": "how much",
+    "jlpt_level": "N5",
+    "part_of_speech": "interrogative",
+    "example": "これはいくらですか。"
+  },
+  {
+    "word": "池",
+    "kana": "いけ",
+    "english": "pond",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "公園に池があります。"
+  },
+  {
+    "word": "医者",
+    "kana": "いしゃ",
+    "english": "doctor",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "医者に行きます。"
+  },
+  {
+    "word": "椅子",
+    "kana": "いす",
+    "english": "chair",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "椅子に座ります。"
+  },
+  {
+    "word": "忙しい",
+    "kana": "いそがしい",
+    "english": "busy",
+    "jlpt_level": "N5",
+    "part_of_speech": "adjective",
+    "example": "今日は忙しいです。"
+  },
+  {
+    "word": "痛い",
+    "kana": "いたい",
+    "english": "painful",
+    "jlpt_level": "N5",
+    "part_of_speech": "adjective",
+    "example": "頭が痛いです。"
+  },
+  {
+    "word": "一",
+    "kana": "いち",
+    "english": "one",
+    "jlpt_level": "N5",
+    "part_of_speech": "number",
+    "example": "一つください。"
+  },
+  {
+    "word": "一番",
+    "kana": "いちばん",
+    "english": "most, best",
+    "jlpt_level": "N5",
+    "part_of_speech": "adverb",
+    "example": "これが一番好きです。"
+  },
+  {
+    "word": "五日",
+    "kana": "いつか",
+    "english": "fifth day",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "五日に会いましょう。"
+  },
+  {
+    "word": "いつも",
+    "kana": "いつも",
+    "english": "always",
+    "jlpt_level": "N5",
+    "part_of_speech": "adverb",
+    "example": "いつも元気です。"
+  },
+  {
+    "word": "犬",
+    "kana": "いぬ",
+    "english": "dog",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "犬を飼っています。"
+  },
+  {
+    "word": "今",
+    "kana": "いま",
+    "english": "now",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "今、何時ですか。"
+  },
+  {
+    "word": "意味",
+    "kana": "いみ",
+    "english": "meaning",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "この言葉の意味は何ですか。"
+  },
+  {
+    "word": "妹",
+    "kana": "いもうと",
+    "english": "younger sister",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "妹は高校生です。"
+  },
+  {
+    "word": "嫌",
+    "kana": "いや",
+    "english": "unpleasant",
+    "jlpt_level": "N5",
+    "part_of_speech": "adjective",
+    "example": "嫌な天気ですね。"
+  },
+  {
+    "word": "入口",
+    "kana": "いりぐち",
+    "english": "entrance",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "入口はあちらです。"
+  },
+  {
+    "word": "色",
+    "kana": "いろ",
+    "english": "color",
+    "jlpt_level": "N5",
+    "part_of_speech": "noun",
+    "example": "好きな色は何ですか。"
+  },
+  {
+    "word": "いろいろ",
+    "kana": "いろいろ",
+    "english": "various",
+    "jlpt_level": "N5",
+    "part_of_speech": "adverb",
+    "example": "いろいろな本があります。"
+  }
+]

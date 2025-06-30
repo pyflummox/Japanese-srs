@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from 'https://cdn.skypack.dev/react';
 
 const API_BASE_URL = 'http://localhost:8000';
 

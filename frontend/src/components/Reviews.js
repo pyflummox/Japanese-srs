@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'https://cdn.skypack.dev/react';
 import { 
   CheckIcon, 
   XMarkIcon,
@@ -6,8 +6,8 @@ import {
   SpeakerWaveIcon,
   ClockIcon,
   PencilIcon
-} from '@heroicons/react/24/outline';
-import { useApi } from '../hooks/useApi';
+} from 'https://cdn.skypack.dev/@heroicons/react@2.0.18/24/outline';
+import { useApi } from '../hooks/useApi.js';
 
 const Reviews = () => {
   const [reviews, setReviews] = useState([]);

@@ -6,7 +6,7 @@ function Reviews() {
   const [current, setCurrent] = useState(0)
 
   useEffect(() => {
-    fetch('/api/v1/words')
+    fetch('/api/v1/reviews')
       .then(res => res.json())
       .then(setWords)
       .catch(console.error)

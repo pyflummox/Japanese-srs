@@ -5,7 +5,7 @@ function Lessons() {
   const [file, setFile] = useState(null)
 
   useEffect(() => {
-    fetch('/api/v1/words')
+    fetch('/api/v1/lessons')
       .then(res => res.json())
       .then(setWords)
       .catch(console.error)

@@ -5,7 +5,8 @@ function Dashboard() {
   const [summary, setSummary] = useState({
     total_words: 0,
     lessons_available: 0,
-    reviews_due: 0
+    reviews_due: 0,
+    current_level: 1
   })
 
   useEffect(() => {
@@ -31,6 +32,7 @@ function Dashboard() {
         </div>
       </div>
       <p>Total Words: {summary.total_words}</p>
+      <p>Current Level: {summary.current_level}</p>
     </div>
   )
 }

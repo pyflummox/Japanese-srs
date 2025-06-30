@@ -10,6 +10,9 @@ class Word(Base):
     english = Column(String, nullable=False)
     example = Column(String, nullable=True)
     audio = Column(String, nullable=True)
+    pos = Column(String, nullable=True)
+    jlpt = Column(String, nullable=True)
+    deck = Column(String, nullable=True)
 
 class SRSItem(Base):
     __tablename__ = "srs_items"

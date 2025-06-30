@@ -35,3 +35,13 @@ npm run dev
 The frontend should now be available at `http://localhost:5173` and will proxy API requests to the backend running at `http://localhost:8000`.
 
 This is a basic starter. Extend the API models and React components to implement SRS reviews, custom decks, and audio playback.
+
+## Local Testing
+
+1. Run backend and frontend using the steps above.
+2. Vocab from the included JLPT CSV files will load automatically on first start.
+3. Open `http://localhost:5173` in your browser.
+4. Navigate to **Lessons** to study new words.
+5. Visit **Reviews** to review learned words and watch the SRS stage name change.
+6. Check **Dashboard** to see your current level and statistics increase as you learn.
+7. Upload additional vocab via the **Lessons** page using a CSV with columns `Japanese,English`.
